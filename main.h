@@ -17,4 +17,4 @@ int octal(int num);
 
 
 
-#endif
+#endif/*MAIN.H*/
