@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 	return (-1);
 	va_start(list_of_args, format);
-	while (*format++ != '\0')
+	while (*format)
 	{
 		if (*format != '%')
 		{	write(1, format, 1);
